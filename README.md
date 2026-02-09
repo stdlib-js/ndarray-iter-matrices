@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+nditerMatrices = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrices@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-iter-matrices/tags). For example,
+
+```javascript
 nditerMatrices = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrices@v0.2.3-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var nditerMatrices = require( 'path/to/vendor/umd/ndarray-iter-matrices/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrices@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrices@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -174,7 +179,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrices@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrices@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
